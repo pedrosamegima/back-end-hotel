@@ -25,7 +25,7 @@ public class Reserva {
 	
 	private String nome;
 	
-	private int dataReserva;
+	private String dataReserva;
 	
 	@ManyToOne
 	@JoinColumn(name= "id_quarto")
